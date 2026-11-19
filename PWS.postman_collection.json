@@ -1,0 +1,375 @@
+{
+  "info": {
+    "_postman_id": "2cada513-8d6f-42c3-b9d4-35d8842e4661",
+    "name": "PWS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54403842",
+    "_collection_link": "https://go.postman.co/collection/54403842-2cada513-8d6f-42c3-b9d4-35d8842e4661?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "FichaGrupo1",
+      "item": [
+        {
+          "name": "Testar a coleção no Postman",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/products",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cursos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Curso 4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses/4",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses",
+                "4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Testar um produto individual",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/products/2",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "products",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Testar um produto inexistente",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/products/99",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "products",
+                "99"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "FichaGrupo2",
+      "item": [
+        {
+          "name": "Desafio1.1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/students",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "students"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio1.2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/students/101",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "students",
+                "101"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio1.3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/students/999",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "students",
+                "999"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio2.0",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio2.1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses?grau=Licenciatura",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ],
+              "query": [
+                {
+                  "key": "grau",
+                  "value": "Licenciatura"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio3.1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/enrollments",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "enrollments"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio3.2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/enrollments/1",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "enrollments",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Desafio3.3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/enrollments/999",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "enrollments",
+                "999"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Ficha2_2",
+      "item": [
+        {
+          "name": "Cursos Copy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Curso 4 Copy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses/4",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses",
+                "4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Curso 4 Copy 2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses/4",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses",
+                "4"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Ficha2_3",
+      "item": [
+        {
+          "name": "Cursos Copy 2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cursos Copy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cursos Copy 3",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BaseURL}}/courses",
+              "host": [
+                "{{BaseURL}}"
+              ],
+              "path": [
+                "courses"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "BaseURL",
+      "value": ""
+    }
+  ]
+}
